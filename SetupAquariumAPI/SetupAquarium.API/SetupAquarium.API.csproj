@@ -1,8 +1,23 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+	</ItemGroup>
+	
+  <ItemGroup>
+    <ProjectReference Include="..\SetupAquarium.BAL.Imp\SetupAquarium.BAL.Imp.csproj" />
+    <ProjectReference Include="..\SetupAquarium.BAL.Interface\SetupAquarium.BAL.Interface.csproj" />
+    <ProjectReference Include="..\SetupAquarium.DAL.Imp\SetupAquarium.DAL.Imp.csproj" />
+    <ProjectReference Include="..\SetupAquarium.DAL.Interface\SetupAquarium.DAL.Interface.csproj" />
+  </ItemGroup>
 
 
 </Project>

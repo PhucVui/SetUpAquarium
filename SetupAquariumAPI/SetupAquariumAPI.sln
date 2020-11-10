@@ -5,6 +5,16 @@ VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetupAquarium.API", "SetupAquarium.API\SetupAquarium.API.csproj", "{28B23A33-A174-4755-8C77-4A8245D2C921}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetupAquarium.Domain", "Domain\SetupAquarium.Domain.csproj", "{3900D9EE-662B-4E69-9F2D-9FA6849D8830}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetupAquarium.DAL.Interface", "SetupAquarium.DAL.Interface\SetupAquarium.DAL.Interface.csproj", "{717D345F-1677-4017-9A72-D87B00957D0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetupAquarium.DAL.Imp", "SetupAquarium.DAL.Imp\SetupAquarium.DAL.Imp.csproj", "{A3323EDB-FE63-4646-813E-7E7407D0E5F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetupAquarium.BAL.Interface", "SetupAquarium.BAL.Interface\SetupAquarium.BAL.Interface.csproj", "{B387102D-389A-4099-94F4-60BD4094A344}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetupAquarium.BAL.Imp", "SetupAquarium.BAL.Imp\SetupAquarium.BAL.Imp.csproj", "{58043629-02BE-4FDF-A0C4-E143F353EF72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,26 @@ Global
 		{28B23A33-A174-4755-8C77-4A8245D2C921}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28B23A33-A174-4755-8C77-4A8245D2C921}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28B23A33-A174-4755-8C77-4A8245D2C921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3900D9EE-662B-4E69-9F2D-9FA6849D8830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3900D9EE-662B-4E69-9F2D-9FA6849D8830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3900D9EE-662B-4E69-9F2D-9FA6849D8830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3900D9EE-662B-4E69-9F2D-9FA6849D8830}.Release|Any CPU.Build.0 = Release|Any CPU
+		{717D345F-1677-4017-9A72-D87B00957D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{717D345F-1677-4017-9A72-D87B00957D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{717D345F-1677-4017-9A72-D87B00957D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{717D345F-1677-4017-9A72-D87B00957D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3323EDB-FE63-4646-813E-7E7407D0E5F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3323EDB-FE63-4646-813E-7E7407D0E5F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3323EDB-FE63-4646-813E-7E7407D0E5F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3323EDB-FE63-4646-813E-7E7407D0E5F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B387102D-389A-4099-94F4-60BD4094A344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B387102D-389A-4099-94F4-60BD4094A344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B387102D-389A-4099-94F4-60BD4094A344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B387102D-389A-4099-94F4-60BD4094A344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58043629-02BE-4FDF-A0C4-E143F353EF72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58043629-02BE-4FDF-A0C4-E143F353EF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58043629-02BE-4FDF-A0C4-E143F353EF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58043629-02BE-4FDF-A0C4-E143F353EF72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
