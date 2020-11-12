@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SetupAquarium.BAL.Interface\SetupAquarium.BAL.Interface.csproj" />
+    <ProjectReference Include="..\SetupAquarium.DAL.Interface\SetupAquarium.DAL.Interface.csproj" />
   </ItemGroup>
 
 </Project>

@@ -3,7 +3,7 @@ using System.Data.SqlClient;
 
 namespace SetupAquarium.DAL.Imp
 {
-    class BaseRepository
+    public class BaseRepository
     {
         protected IDbConnection connection;
         public BaseRepository()
