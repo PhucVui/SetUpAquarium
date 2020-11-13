@@ -1,16 +1,22 @@
-﻿namespace SetupAquarium.Domain.Reponse.Product
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace SetupAquariumWeb.Models.Product
 {
-    public class ProductView
+    public class SaveProductReq
     {
         public int ProductId { get; set; }
+        [Required]
+        [Display(Name = "Product Name")]
         public string ProductName { get; set; }
+        [Required]
         public float Price { get; set; }
+        [Display(Name = "Avatar")]
         public string AvatarPath { get; set; }
+        [Required]
         public int CategoryId { get; set; }
-        public string CategoryName { get; set; }
+        [Required]
         public int AquariumSizeId { get; set; }
-        public string Size { get; set; }
+        [Required]
         public int Status { get; set; }
-        public string StatusName { get; set; }
     }
 }

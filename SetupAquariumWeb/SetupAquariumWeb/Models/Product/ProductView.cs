@@ -1,4 +1,4 @@
-﻿namespace SetupAquarium.Domain.Reponse.Product
+﻿namespace SetupAquariumWeb.Models.Product
 {
     public class ProductView
     {
@@ -12,5 +12,6 @@
         public string Size { get; set; }
         public int Status { get; set; }
         public string StatusName { get; set; }
+
     }
 }
